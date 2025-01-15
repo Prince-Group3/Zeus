@@ -1,0 +1,71 @@
+body {
+    color: #444;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a{
+    margin-left: 47.5%;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+}
+
+#p1::first-letter{
+    font-size: 200%;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.tablinks {
+    background-color: #444;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.tablinks:hover {
+    background-color: #fff;
+    color: #333;
+    transform: scale(1.1);
+}
+
+.tablinks:focus {
+    outline: none;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tabcontent h2 {
+    margin-top: 0;
+}
+
+/* Show the active tab's content */
+.active {
+    display: block;
+}
